@@ -23,3 +23,11 @@ The soccer game data was collected from 1993 to 2022, the data has the informati
 
 This data has a good faithfulness, it has some missing rows but those rows doesn’t matter for the data I’m using it for. The data is very believable because it has the exact same information of each game that it can be found on internet. 
 
+Section 3:
+
+First created a jupiter notebook file, then created a new dataframe from the csv file with the pandas library.
+
+Filtered the data by deleting the columns from home_team_goalkeeper_score to away_team_mean_midfield_score because it has a lot of NaN values.
+
+Used the pandas library to drop the columns that were not necessary.
+
