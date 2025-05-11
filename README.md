@@ -51,3 +51,10 @@ You can see the plots on the Jupiter notebook(ipynb)
 
 You can see these plots on the Jupiter notebook(ipynb)
 
+### Section 6:
+
+#### Model 1:
+<b>Description:</b> In this model, I used the Decision Tree Regressor Model to predict how many goals the home team scored. Also, I tried 3 different parameters for the model, with Max Depth(The max depth is the distance from the root of the tree to their lowest leaf, we can could the max depth by counting the amount of edges) of 3, 5 and 10. With the model with Max Depth 3, I tried to get the least max depth to get a base case with the model, the problem with this model and parameter is that the parameter is too low because the model is not able to include all the dependent variables. With the model with Max Dep 10, I tried to get a high value as a parameter, the problem with this parameter is that it is very high and causing overfitting. Finally the model with Max Depth 5, I tried a value in between 3 and 10 and see which of all of them has the best result.
+
+The Decision Tree Regressor Model with Max Depth 5 is the best parameter I would recommend with this model to predict the data because it was the lowest mean squared error.
+
