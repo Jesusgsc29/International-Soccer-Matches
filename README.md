@@ -58,3 +58,12 @@ You can see these plots on the Jupiter notebook(ipynb)
 
 The Decision Tree Regressor Model with Max Depth 5 is the best parameter I would recommend with this model to predict the data because it was the lowest mean squared error.
 
+### Section 7:
+
+#### Model 2:
+<b>Description:</b> In this second model, I used K-Nearest Neighbors Regression Model to predict the home team score. First, I scaled the data because some of the variable's value were a lot higher than others. I used 3 different parameters for this model: number of neighbors 7, 19 and 29. I started with 7 as the parameter to get the base case and get an idea of the model performance. From there I started increasing the parameter number to get better result, I checked 19 first to check if the performance was better and kept increasing the value until 29. I noticed as the parameter number increased the performance was better until a certain point.
+
+The K-Nearest Neighbors Regression Model with number of neighbors = 29 is the best parameter for this model because it has the lowest mean squared error.
+
+<b>Comparison:</b> Model 1 and model 2 got really good result and very low mean squared errors, but model 1 had a better performance then model 2 because model has the lowest mean squared error value and model 2 would not go below 1.40. That is why I would recommend model 1 to try to predict the soccer match data.
+
