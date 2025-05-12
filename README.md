@@ -67,3 +67,8 @@ The K-Nearest Neighbors Regression Model with number of neighbors = 29 is the be
 
 <b>Comparison:</b> Model 1 and model 2 got really good result and very low mean squared errors, but model 1 had a better performance then model 2 because model has the lowest mean squared error value and model 2 would not go below 1.40. That is why I would recommend model 1 to try to predict the soccer match data.
 
+### Section 8:
+
+In this box graph, I compare the fifa rank number of the home team with the home team continent. In this graph you can see the average fifa rank of the home team by continent and you can notice that South America and Europe has the lowest fifa rank because the biggest team in history and nowdays, the ones that have won the FIFA World Cup throughout the years, are usually from South America or Europe. Occupaying the first places are Europe and South America, and that goes all the way up to Oceania and Asia that are weakest team or the teams that has least tropies throughout the history of soccer. You can see in this graph that the teams that win are, most of the time, are the ones that have the lowest fifa ranks, meaning they are bigger or "better" teams.
+
+You can see these plots on the Jupiter notebook(ipynb)
